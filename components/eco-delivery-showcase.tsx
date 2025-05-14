@@ -23,7 +23,7 @@ import {
   Zap,
 } from "lucide-react";
 
-export function EcoDeliveryShowcase() {
+export const EcoDeliveryShowcase = () => {
   const [activeTab, setActiveTab] = useState("visualization");
 
   return (
@@ -1219,6 +1219,4 @@ export function EcoDeliveryShowcase() {
       </div>
     </section>
   );
-}
-
-export default EcoDeliveryShowcase;
+};
